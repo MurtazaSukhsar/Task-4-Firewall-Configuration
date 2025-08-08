@@ -28,16 +28,11 @@ Configure the Windows 11 firewall to block Telnet (port 23) and verify that the 
 - Apply the rule to **Domain**, **Private**, and **Public** profiles.
 - Name the rule: `Block Telnet`.
 
-*(Screenshot: Adding the rule)*  
-![Adding Rule](screenshots/add_rule.png)
-
 ---
 
 ### 3️⃣ Verify Rule in Firewall Dashboard
 - In **Inbound Rules**, confirm the `Block Telnet` rule appears and is **enabled**.
 
-*(Screenshot: Firewall dashboard with rule visible)*  
-![Firewall Dashboard](screenshots/firewall_dashboard.png)
 
 ---
 
@@ -47,9 +42,6 @@ Configure the Windows 11 firewall to block Telnet (port 23) and verify that the 
 telnet <Windows_11_IP> 23
 ```
 - The connection should **fail**, confirming the firewall is blocking Telnet.
-
-*(Screenshot: Telnet connection failed in CMD)*  
-![Telnet Failed](screenshots/telnet_failed.png)
 
 ---
 
